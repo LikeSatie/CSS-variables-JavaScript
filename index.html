@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,6 +8,32 @@
     <title>Document</title>
   </head>
   <body>
+    <h2>
+      Обновление значений переменных CSS с помощью
+      <span class="h-2">JavaScript</span>
+    </h2>
+    <div class="controls">
+      <label for="spacing">Отступ:</label>
+      <input
+        type="range"
+        name="spacing"
+        min="10"
+        max="200"
+        value="10"
+        data-sizing="px"
+      />
+      <label for="blur">Размытие:</label>
+      <input
+        type="range"
+        name="blur"
+        min="0"
+        max="25"
+        value="10"
+        data-sizing="px"
+      />
+      <label for="base">Цвет:</label>
+      <input type="color" name="base" value="#ffc600" />
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
