@@ -9,17 +9,27 @@
   </head>
   <body>
     <h2>
-      Обновление значений переменных CSS с помощью
-      <span class="h-2">JavaScript</span>
+      Обновление значений переменных <span class="css">CSS</span> с помощью
+      <span class="js">JavaScript</span>
     </h2>
     <div class="controls">
+      <!-- <label for="size">Размер:</label>
+      <input
+        id="size"
+        type="range"
+        name="size"
+        min="600"
+        max="1920"
+        value="600"
+        data-sizing="px"
+      /> -->
       <label for="spacing">Отступ:</label>
       <input
         type="range"
         name="spacing"
-        min="10"
-        max="200"
-        value="10"
+        min="1"
+        max="20"
+        value="1"
         data-sizing="px"
       />
       <label for="blur">Размытие:</label>
@@ -27,13 +37,14 @@
         type="range"
         name="blur"
         min="0"
-        max="25"
-        value="10"
+        max="30"
+        value="20"
         data-sizing="px"
       />
       <label for="base">Цвет:</label>
-      <input type="color" name="base" value="#ffc600" />
+      <input type="color" name="base" value="#0095ff" />
     </div>
+    <img src="image.jpg" alt="testing_image" id="image" />
     <script src="main.js"></script>
   </body>
 </html>

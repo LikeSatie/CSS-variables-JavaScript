@@ -1,0 +1,57 @@
+:root {
+  --base: #0095ff;
+  --spacing: 1px;
+  --blur: 20px;
+}
+
+img {
+  width: 85vw;
+  margin: 0 auto;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.css,
+.js {
+  color: var(--base);
+}
+
+body {
+  background: #193549;
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+h2 {
+  font-size: calc(18px + 1vw);
+}
+
+.controls {
+  width: 85vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: calc(16px + 0.5vw);
+}
+
+label {
+  align-self: flex-start;
+  /* padding-left: 2.5vw; */
+}
+
+input {
+  width: 85.85vw;
+  margin: 5px 0;
+  /* margin-left: 11vw; */
+}
+
+input[type='color'] {
+  border-radius: 5px;
+}
